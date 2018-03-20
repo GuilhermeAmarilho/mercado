@@ -1,0 +1,80 @@
+*{
+    background-color:  #99ff9e;
+    font-family: 'Nanum Pen Script', cursive;
+    
+}
+span.top{
+    padding-top: 10px;
+    font-size: 50px;
+}
+span.navi{
+    font-size: 1em;
+    background: white;
+}
+p.navi{
+    background: white;
+    margin:0px;
+    font-size: 0.7em;
+}
+h2.top{
+    font-size: 20px;
+    margin: 0px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+p.top{
+    font-size: 15px;
+}
+div.navb{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+div.nav{
+    position: absolute;
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+    background: white;
+}
+#n1{
+    background: white;
+    font-size: 0.8em;
+}
+#n2{
+    position: absolute;
+    left: 20%;
+    font-size: 0.9em;
+}
+#n3{
+    background: black;
+    position: absolute;
+    left: 40%;
+    font-size: 0.9em;
+}
+#n4{
+    position: absolute;
+    left: 60%;
+    font-size: 0.9em;
+}
+#n5{
+    position: absolute;
+    left: 80%;
+    font-size: 0.9em;
+}
+.navatual{
+    color:white;
+    background-color: black;
+}
+h1{
+    margin: 0px;
+}
+p{
+    width: 80%;
+    margin-left: 10%;
+}
+img{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+}
