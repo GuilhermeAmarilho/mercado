@@ -1,9 +1,10 @@
 {
+  "namoe": "mercado x",
+  "short_name" : "mercado x",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "browser",
-  "Scope": "/",
-  "start_url": "/",
+  "display": "standalone",
+  "start_url": "https://guilhermeamarilho.github.io/mercado",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
