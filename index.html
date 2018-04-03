@@ -108,10 +108,18 @@
         <hr>
       </div>
     </div>
-    
-
-
-
+              
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        then(function () {
+          console.log('service worker registered');
+        })
+        .catch(function () {
+          console.warn('service worker failed');
+        });
+      }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
