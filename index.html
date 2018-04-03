@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/ofertas.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
+    <script src="sw.js"></script>
   </head> 
   <body>
     <div class='top' align='center'>
@@ -109,13 +110,14 @@
     </div>
               
     <script>
-       if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js')
-        .then(function () {
-          console.log('service worker registered');
-        })
-        .catch(function () {
-          console.warn('service worker failed');
+      if (navigator.serviceWorker.controller) {
+        console.log('[PWA Builder] active service worker found, no need to register')
+      } else {
+        //Register the ServiceWorker
+        navigator.serviceWorker.register('pwabuilder-sw.js', {
+          scope: './'
+        }).then(function(reg) {
+          console.log('Service worker has been registered for scope:'+ reg.scope);
         });
       }
     </script>
