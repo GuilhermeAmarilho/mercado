@@ -85,6 +85,7 @@ div h5{
     font-size: 20px;
     margin-left: 30%;
     margin-bottom: 10px;
+    text-align: center;
 }
 img{
     width: 80%;
@@ -93,6 +94,7 @@ div.promo{
     border-left: 1px solid black;
     border-right: 1px solid black; 
     width: 50%;
+    text-align: center;
     margin-left: 25%;
 }
 button.compra{
@@ -130,4 +132,8 @@ h3{
     font-size: 32px;
     margin-bottom: 10px;
     border-bottom: 1px solid black; 
+    text-align: center;
+}
+div.tagitem{   
+    text-align: center;
 }
