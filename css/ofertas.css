@@ -108,6 +108,7 @@ button.compra span{
     background: white;
 }
 div.compra{
+    
     font-size: 20px;
     width: 60%;
     height: 24px;
@@ -115,7 +116,7 @@ div.compra{
     position: relative;
     top: -24px;
     background: white;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 h4{
     margin: 0px;
