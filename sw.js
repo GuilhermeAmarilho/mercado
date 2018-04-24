@@ -15,21 +15,7 @@ self.addEventListener('install', function (event) {
                   '/mercado/img/muda.jpg', '/mercado/img/vestido.jpg',
                   '/mercado/img/video.jpg', '/mercado/css/busca.css',
                   '/mercado/css/carrinho.css', '/mercado/css/conta.css',
-                  '/mercado/css/contato.css', '/mercado/css/ofertas.css',
-                  '/mercado/img/i3.png', '/mercado/img/i4.png',
-                  '/mercado/img/i5.png', '/mercado/img/icone.png',
-                  '/mercado/img/logo1.png', '/mercado/img/maq1.png',
-                  '/mercado/img/maq2.png', '/mercado/img/maq3.png',
-                  '/mercado/img/maq4.png', '/mercado/img/masc1.png',
-                  '/mercado/img/masc2.png', '/mercado/img/masc3.png',
-                  '/mercado/img/masc4.png', '/mercado/img/portal-blue-semi.png',
-                  '/mercado/img/portal-blue.png', '/mercado/img/portal-green-semi.png',
-                  '/mercado/img/portal-green.png', '/mercado/img/portal-orange-semi.png',
-                  '/mercado/img/portal-orange.png', '/mercado/img/portal-red-semi.png',
-                  '/mercado/img/portal-red.png', '/mercado/img/portal-yellow-semi.png',
-                  '/mercado/img/portal-yellow.png', '/mercado/img/slua.png',
-                  '/mercado/img/zenite.png', '/mercado/js/script.js',
-                  '/mercado/css/style.css'
+                  '/mercado/css/contato.css', '/mercado/css/ofertas.css'
               ]);
           });
       })
