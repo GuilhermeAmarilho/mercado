@@ -122,8 +122,17 @@ button.cmais{
     background: #1a8cff;
     font-size: 25px;
 }
-button.cmais a{
+div.cmais {
+    margin-top: 30px;
+    height: 40px;
+    background: rgba(0, 174, 255, 0.781);
+    width: 80%;
+    margin-left: 10%;
+}
+div.cmais a{
+    font-size: 23px;
     color: white;
+    margin-left: 40%;
 }
 div.itens h3{
     background: white;
