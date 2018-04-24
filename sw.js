@@ -18,7 +18,12 @@ self.addEventListener('install', function (event) {
                   '/mercado/img/muda.jpg', '/mercado/img/vestido.jpg',
                   '/mercado/img/video.jpg', '/mercado/css/busca.css',
                   '/mercado/css/carrinho.css', '/mercado/css/conta.css',
-                  '/mercado/css/contato.css', '/mercado/css/ofertas.css'
+                  '/mercado/css/contato.css', '/mercado/css/ofertas.css',
+                  '/mercado/css/bootstrap-theme.css.map', '/mercado/css/bootstrap-theme.css',
+                  '/mercado/css/bootstrap-theme.min.css', '/mercado/css/bootstrap-theme.min.css.map',
+                  '/mercado/css/bootstrap.css', '/mercado/css/bootstrap.css.map',
+                  '/mercado/css/bootstrap.min.css', '/mercado/css/bootstrap.min.css.map',
+                  '/mercado/js/bootstrap.js', '/mercado/js/bootstrap.min.js', '/mercado/js/npm.js'
               ]);
           });
       })
