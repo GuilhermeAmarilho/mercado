@@ -1,0 +1,29 @@
+23 - evite codigo inline 
+22 - style no head 
+21 - script no body 
+18 - usar link invés de import
+15 - evite document.write
+19 - use sempre a ultima versão do jquery
+4   - não escale imagens no codigo 
+3   - otimize suas imagens 
+20 - comprima sua style 
+12 - comprima seu script
+
+
+
+
+23 - evite codigo inline
+22 - style no head 
+21 - usando o async
+20 - comprima seu css
+19 - um só css
+18 - use link invés de @import 
+17 - carregue códigos de outros de maneira rapida 
+16 - guarde o tamanho do vetor 
+15 - não use document.write
+13 - não manipular o dom desnecessariamente
+12 - comprima seu script 
+11 - apenas um script
+07 - não use jquery desnecesssario 
+04 - não escale imagens no codigo
+03 - otimise as imagens
