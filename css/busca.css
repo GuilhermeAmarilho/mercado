@@ -2,9 +2,16 @@
     background-color:  #99ff9e;
     font-family: 'Nanum Pen Script', cursive;
 }
+.cen, .mid{
+    text-align: center;
+}
 span.top{
     padding-top: 10px;
     font-size: 50px;
+}
+div.set p{
+    background: white;
+    font-size: 22px;
 }
 span.navi{
     font-size: 1em;

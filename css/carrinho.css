@@ -1,7 +1,9 @@
 *{
     background-color:  #99ff9e;
-    font-family: 'Nanum Pen Script', cursive;
-    
+    font-family: 'Nanum Pen Script', cursive;   
+}
+.cen{
+    text-align: center;
 }
 span.top{
     padding-top: 10px;
